@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: 1px solid var(--website-button-blue, #CBD7E8);
+    background-color: transparent;
+    color: #000D40;
+    padding: 10px;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: none;
+}
+
+button:active {
+    background-color: #129AFE;
+    color: white;
+}
+
+.first-task {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: mistyrose;
+}
+
+.first input {
+    height: 40px;
+    border: 1px solid var(--website-input-gainsboro, #CBD7E8);
+    background-color: transparent;
+    border-radius: 1000px;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.first button {
+    height: 44px;
+}
+
+.second-task {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-task h2 {
+    font-size: 30px;
+}
+
+#calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+table th, table td {
+    border: 2px solid #CBD7E8;
+    padding: 10px;
+}
+
+#calendar button {
+    font-size: 10px;
+}
+
+.apod {
+    margin: 0 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    margin-top: 20px;
+}
+
+.third-task {
+    margin: 0 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsteelblue;
+}
+
+#load-buttons button {
+    margin: 0 10px;
+}
+
+#github-profile p{
+    font-size: 20px;
+}
